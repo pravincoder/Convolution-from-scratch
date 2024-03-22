@@ -18,14 +18,14 @@ This repository contains Python code for implementing convolutional neural netwo
 - `utils.py`: Utility functions used across different components of the implementation.
 - `examples/`: Directory containing example scripts demonstrating the usage of different components and architectures.
 
-## Usage
+## Usage in [Colab](https://colab.research.google.com/) 
 
 To utilize this repository, follow these steps:
 
 1. Clone the repository to your local machine:
 
     ```
-    git clone https://github.com/pravincoder/convolution-from-scratch.git
+    !git clone https://github.com/pravincoder/convolution-from-scratch.git
     ```
 
 2. Navigate to the cloned directory:
@@ -37,7 +37,6 @@ To utilize this repository, follow these steps:
 3. Import the required modules in your Python scripts:
 
     ```python
-    from convolution_layer import ConvolutionLayer
     from lenet5 import LeNet5
     # Import other architectures as needed
     ```
